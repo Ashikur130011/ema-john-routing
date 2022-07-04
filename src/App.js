@@ -9,8 +9,8 @@ import Shop from './components/Shop/Shop';
 function App() {
   return (
     <div>
-      <Header></Header>
       <BrowserRouter>
+      <Header></Header>
         <Routes>
           <Route path='/' element={<Shop/>}/>
           <Route path='shop' element={<Shop/>} />
