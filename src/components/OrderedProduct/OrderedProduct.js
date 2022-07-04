@@ -11,7 +11,7 @@ const OrderedProduct = (props) => {
                 <p>
                     <small>only {stock} left in stock - order soon</small>
                 </p>
-                <button onClick={()=> removeProduct(key)} >Remove</button>
+                <button className='btn-regular' onClick={()=> removeProduct(key)} >Remove</button>
             </div>
         </div>
     );
